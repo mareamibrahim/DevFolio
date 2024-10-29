@@ -1,0 +1,538 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.container-fluid {
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("./img/img01.jpg");
+}
+
+.my-navebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    left: 0;
+    align-items: center;
+    right: 0;
+    display: flex;
+    font-size: 65px;
+    bottom: 0;
+}
+
+
+.SERVICES::before {
+    content: "";
+    position: absolute;
+
+    height: 3px;
+    bottom: 10%;
+}
+
+
+.SERVICES:hover::before {
+    width: 5%;
+    background-color: #ffff;
+}
+
+
+.typing::after {
+    content: "";
+    animation-name: typingSkill;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+/* Freelancer| Photographer| Designer| */
+@keyframes typingSkill {
+
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "D|";
+    }
+
+    3% {
+        content: "De|";
+    }
+
+    4% {
+        content: "Dev|";
+    }
+
+    5% {
+        content: "Deve|";
+    }
+
+    6% {
+        content: "Devel|";
+    }
+
+    8% {
+        content: "Develo|";
+    }
+
+    19% {
+        content: "Develop|";
+    }
+
+    10% {
+        content: "Develope|";
+    }
+
+    11% {
+        content: "Developer|";
+    }
+
+    15% {
+        content: "Develope|";
+    }
+
+    20% {
+        content: "Develop|";
+    }
+
+    /* Freelancer */
+    22% {
+        content: "|";
+    }
+
+    23% {
+        content: "F|";
+    }
+
+    24% {
+        content: "Fr|";
+    }
+
+    25% {
+        content: "Fre|";
+    }
+
+    26% {
+        content: "Free|";
+    }
+
+    27% {
+        content: "Freel|";
+    }
+
+    28% {
+        content: "Freela|";
+    }
+
+    29% {
+        content: "Freelan|";
+    }
+
+    30% {
+        content: "Freelanc|";
+    }
+
+    31% {
+        content: "Freelance|";
+    }
+
+    35% {
+        content: "Freelancer|";
+    }
+
+    40% {
+        content: "Freelancer|";
+    }
+
+    100% {}
+
+    /* Photographer */
+    42% {
+        content: "|";
+    }
+
+    43% {
+        content: "P|";
+    }
+
+    44% {
+        content: "Ph|";
+    }
+
+    45% {
+        content: "Pho|";
+    }
+
+    46% {
+        content: "Phot|";
+    }
+
+    47% {
+        content: "Photo|";
+    }
+
+    48% {
+        content: "Photog|";
+    }
+
+    /* Photographer */
+    49% {
+        content: "Photogr|";
+    }
+
+    50% {
+        content: "Photogra|";
+    }
+
+    51% {
+        content: "Photograp|";
+    }
+
+    55% {
+        content: "Photograph|";
+    }
+
+    57% {
+        content: "Photographe|";
+    }
+
+    58% {
+        content: "Photographer|";
+    }
+
+    100% {}
+
+    /* Designer */
+    42% {
+        content: "|";
+    }
+
+    43% {
+        content: "P|";
+    }
+
+    44% {
+        content: "Ph|";
+    }
+
+    45% {
+        content: "Pho|";
+    }
+
+    46% {
+        content: "Phot|";
+    }
+
+    47% {
+        content: "Photo|";
+    }
+
+    48% {
+        content: "Photog|";
+    }
+
+    /* Photographer */
+    49% {
+        content: "Photogr|";
+    }
+
+    50% {
+        content: "Photogra|";
+    }
+
+    51% {
+        content: "Photograp|";
+    }
+
+    55% {
+        content: "Photograph|";
+    }
+
+    57% {
+        content: "Photographe|";
+    }
+
+    58% {
+        content: "Photographer|";
+    }
+
+    100% {}
+
+    /* Designer */
+
+    59% {
+        content: "|";
+    }
+
+    60% {
+        content: "D|";
+    }
+
+    61% {
+        content: "De|";
+    }
+
+    63% {
+        content: "Des|";
+    }
+
+    64% {
+        content: "Desi|";
+    }
+
+    65% {
+        content: "Desig|";
+    }
+
+    66% {
+        content: "Design|";
+    }
+
+    /* Designer */
+    67% {
+        content: "Designe|";
+    }
+
+    68% {
+        content: "Designer|";
+    }
+
+    69% {
+        content: "Designer|";
+    }
+
+    100% {}
+}
+
+.contant {
+    color: white;
+
+    letter-spacing: 2px;
+
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    top: 10%;
+
+    background-color: #0078ff;
+}
+
+.head::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    top: 80px;
+    right: 50%;
+
+    background-color: #0078ff;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    top: 140px;
+    right: 50%;
+
+    background-color: #0078ff;
+}
+
+.works {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 120, 255, 0.5), rgba(0, 120, 255, 0.5)),
+        url("../task7/img/img03.jpg");
+}
+
+.icon {
+    margin-left: 32%;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    height: 80px;
+    box-shadow: 0 0 0 8px #cde1f8;
+    border-radius: 50%;
+    background-color: #0078ff;
+    width: 80px;
+}
+
+.briefcase {
+    left: 25%;
+    top: 10%;
+    position: absolute;
+}
+
+.icon-1 {
+    margin-left: 32%;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    height: 85px;
+    box-shadow: 0 0 0 8px #0078ff;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 85px;
+}
+
+.icon-1:hover {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 8px rgba(176, 176, 253, 0.5);
+}
+
+.cover {
+    text-align: center;
+    top: 70px;
+    left: 100px;
+
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.section {
+    transition: transform 1s;
+}
+
+.section:hover img {
+    transform: scaley(1.2);
+}
+
+
+/*  */
+.carousel-part {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 120, 255, 0.5), rgba(0, 120, 255, 0.5)),
+        url("../task7/img/img10.jpg");
+}
+
+.carousel-part {
+    height: 60vh;
+}
+
+.carousel-indicators {
+    top: 100%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    border-radius: 50%;
+    height: 20px;
+}
+
+.card-header {
+    border-radius: 10%;
+    height: 30px;
+    display: inline-block;
+    border: 2px sold;
+    top: -10%;
+    background-color: #0078FF;
+}
+
+.TRAVEL {
+    font-size: 13px;
+}
+
+.list-icon {
+    width: 40px;
+    ;
+}
+
+.card-footer {
+    padding: 0;
+}
+
+.card-footer span {
+    font-size: 15px;
+}
+
+.navbar-toggler {
+    border: none;
+    ;
+    border-radius: 0;
+}
+
+
+.time {
+    left: 80%;
+}
+
+.info {
+
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 120, 255, 0.5), rgba(0, 120, 255, 0.5)),
+        url("../task7/img/img10.jpg");
+}
+
+#message {
+    border-color: #dee2e6;
+    height: 110px;
+    width: 80%;
+}
+
+
+ .part-2 { padding-bottom: 20px;
+    height: 50px;
+    font-size: 20px; letter-spacing: 1px;
+    font-weight: 300;
+    color: #4e4e4e;
+} 
+
+.footer {
+    background-color: #0062d3;
+}
+
+.list {
+    list-style: none;
+}
+
+.span { padding: 8px; justify-content: space-between;
+  
+}
+
+.iconss {
+
+
+
+    height: 10px;
+    box-shadow: 0 0 0 2px #0078ff;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 10px;
+}
+
+.iconss:hover {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 8px rgba(176, 176, 253, 0.5);
+}
+
+.span:hover {
+    color: #ffff;
+}
+.get h2::before {
+    content: "";
+    position: absolute;
+    width: 18%;
+    height: 3px;
+    top: 40px;
+    /* right: 54%; */
+
+    background-color: #0078ff;
+}
